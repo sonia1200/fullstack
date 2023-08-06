@@ -1,0 +1,141 @@
+* {
+    margin:0px;
+}
+.sec1 {
+    background-image: url("developer.png");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1,#h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding-left: 300px;
+    display: inline-block;
+   
+}
+span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+#h1 {
+    margin-top: 80px;
+}
+.sec2 {
+background-color: black;
+height:200px ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h3 {
+    color: white;
+    display: inline-block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    
+}
+.sec2 span {
+    font-size: 100px;
+    padding: 10px;
+}
+#container {
+    height:700px;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding-top: 70px;
+   
+}
+#box1, #box2  { 
+    border: 2px solid rgba(0,0,0,0.1);
+    width:350px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow:  3px 5px 5px 3px rgba(255,255,255,0.7); 
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+ 
+#box3 {
+    border: 2px solid rgba(0,0,0,0.1);
+    height: 550px;
+    width:350px;
+    border-radius: 10px;
+    box-shadow:  3px 5px 5px 3px rgba(255,255,255,0.7); 
+    display: inline-block;
+}
+   
+h4 {
+    color:black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+#box1 p {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#box2 p,#box3 p {
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 10px;
+}
+img {
+    width:350px;
+}
+#footer {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition-property: all;
+}
+
+#contact, #about {
+    height: 450px;
+    width: 4500px;
+}
+#contact {
+    background-color: rgb(73, 105, 7);
+    
+}
+#about {
+    background-color: rgb(80, 9, 9);
+   }
+  h3 {
+    font-size: 60px;
+    padding-left: 60px;
+    padding-top: 50px;
+    font-weight: 10;
+  } 
+   #footer p {
+    text-align: left;
+    padding-top: 20px;
+    padding-left:60px ;
+    padding-right: 90px;
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5;
+  } 
+  h2 {
+    padding-left: 60px;
+    font-weight: 10px;
+    color: white;
+  }
+  h2:hover {
+    font-size: 35px;
+    transition-duration: 1s ;
+  }
+
+
+
+
+
